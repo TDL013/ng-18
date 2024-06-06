@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeFilterComponent } from './home-filter.component';
+import { SwapiDetailsComponent } from './swapi-details.component';
 
-describe('HomeFilterComponent', () => {
-  let component: HomeFilterComponent;
-  let fixture: ComponentFixture<HomeFilterComponent>;
+describe('SwapiDetailsComponent', () => {
+  let component: SwapiDetailsComponent;
+  let fixture: ComponentFixture<SwapiDetailsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HomeFilterComponent]
+      imports: [SwapiDetailsComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(HomeFilterComponent);
+    fixture = TestBed.createComponent(SwapiDetailsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

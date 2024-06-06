@@ -1,16 +1,23 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { HomeDetailsComponent } from './home-details/home-details.component';
+import { LandingComponent } from './landing/landing.component';
+import { SwapiListComponent } from './swapi/swapi-list/swapi-list.component';
+import { SwapiDetailsComponent } from './swapi/swapi-details/swapi-details.component';
+
 
 export const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
-    title: 'Home page',
+    component: LandingComponent,
+    title: 'Landing',
   },
   {
-    path: 'details/:id',
-    component: HomeDetailsComponent,
-    title: 'Home details',
+    path: 'swapi-list',
+    component: SwapiListComponent,
+    title: 'Swapi List',
+  },
+  {
+    path: 'swapi-details',
+    component: SwapiDetailsComponent,
+    title: 'Swapi Details',
   },
 ];

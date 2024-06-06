@@ -8,4 +8,23 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: black;
+  color: white;
+}
+
+.primary-background {
+  background: rgba(22, 22, 23, .8) !important;
+  color: rgb(255, 255, 255, 0.8) !important;
+}
+
+.primary-button {
+  background: #0071e3;
+  color: #fff;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+secondary-button {
+  color: #2997ff;
+  border-color: #2997ff;
+  background: rgba(0, 0, 0, 0);
 }

@@ -1,4 +1,25 @@
-<mat-toolbar class="primary">
-  <span>My Application</span>
+<mat-toolbar class="primary-background">
+  <div class="link-container">
+    <span>
+      <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page"><mat-icon aria-hidden="false"
+          fontIcon="home"></mat-icon></a>
+    </span>
+    <span>
+      <a routerLink="/swapi-list" routerLinkActive="active" ariaCurrentWhenActive="page"> <mat-icon aria-hidden="false"
+          fontIcon="bolt"></mat-icon>
+      </a>
+    </span>
+    <span>
+      <a routerLink="/swapi-details" routerLinkActive="active" ariaCurrentWhenActive="page"> <mat-icon
+          aria-hidden="false" fontIcon="sync"></mat-icon>
+      </a>
+    </span>
+    <span>
+      <mat-icon aria-hidden="false" fontIcon="fullscreen"></mat-icon>
+    </span>
+    <span>
+      <mat-icon aria-hidden="false" fontIcon="settings"></mat-icon>
+    </span>
+  </div>
 </mat-toolbar>
 <router-outlet />

@@ -16,7 +16,7 @@ export const routes: Routes = [
     title: 'Swapi List',
   },
   {
-    path: 'swapi-details',
+    path: 'swapi-details/:id',
     component: SwapiDetailsComponent,
     title: 'Swapi Details',
   },
